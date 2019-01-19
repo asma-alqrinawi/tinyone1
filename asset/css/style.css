@@ -1,0 +1,241 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'PT Sans', sans-serif;
+    direction: ltr;
+    color: #010101;
+}
+.clear{
+    clear:both;
+}
+.heroSection{
+  width: 100%;
+  height: auto;
+  background: #fcbb00;
+ padding:52px 0px 100px 0px;
+  box-sizing: border-box; 
+  
+}
+.section{
+    width: 100%;
+    height: auto;
+    padding: 52px 0px 100px 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.logo{
+    width: 50px;
+    float:left;
+}
+.menu{
+  width: 50%;
+  float:right;
+}
+
+.menu ul li{
+    list-style-type: none;  /* clear dots */
+    display:inline-block;
+    margin-left:50px;
+}
+
+.menu ul li a{
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+.menu ul{
+    text-align:right;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left:0px;    
+}
+
+.heroDes{
+  width: 50%;
+    float: left;
+    padding-top:145px;
+    box-sizing: border-box;  
+}
+.heroDes h1{
+   font-size: 32px;
+   font-weight: bold;  
+}
+.heroDes h2{
+   font-size: 32px;
+   font-weight: bold;
+   padding-right: 85px;
+   box-sizing: border-box;
+}
+.heroDes p{
+ font-size: 16px;
+ color:  #555555;
+ padding-right: 85px;
+ box-sizing: border-box;
+}
+
+a.link{
+    color: #010101;
+    font-size: 42px;
+    text-decoration: none;
+    box-sizing: border-box;
+     margin-right: 35px;
+}
+a.link:last-child{
+ margin-right: 0px;
+}
+.heroImg{
+ width: 50%;
+ float: right;   
+}
+.heroImg img{
+    margin-top:60px;
+    margin-left: 155px;
+}
+.section h2{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+p.titleDesc{
+    font-size:20px;
+    color:#313841;
+    text-align: center;
+}
+.row{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.featuresItem{
+    float: left;
+    width:33.3%;
+    height: auto;
+}
+.featuresIcon{
+    float: left;
+    width: 60px;
+    font-size: 50px;
+    box-sizing: border-box;
+    padding-top:22px;
+}
+.featuresDesc{
+    float: right;
+    width: calc(100% - 60px);
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.featuresDesc h3{
+    font-size: 22px;
+}
+.featuresDesc p{
+    font-size: 16px;
+    color: #898989;
+}
+
+.keepSection{
+ background: #010101;
+}
+.keepSection h2{
+    color:#fcdb00;
+}
+.keepSection p{
+    color: #898989;
+}   
+
+.email{
+height: 50px;
+border-radius: 4px;
+padding-left:25px;
+border: 0px;
+width: 580px;
+font-size: 16px;
+}
+.submitBtn{
+    background: #fcdb00;
+    color: #010101;
+    width:130px;
+    height: 50px;
+    border: 0px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    transition-duration: 0.2s; /* hover */
+}
+.submitBtn:hover{
+    cursor: pointer;
+    background:#c7ae05;
+    transition-duration: 0.2s;
+}
+.keepSection form{
+    text-align: center;
+    margin-top:30px;
+}
+
+  .social{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top:80px;
+}
+.social a{
+    width: 37px;
+    height: 37px;
+    background: #fcdb00;
+    border-radius: 4px;
+    color: #010101;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin-left:35px;
+    line-height: 42px;
+    transition-duration: 0.2s;
+}
+.social a:first-child{
+    margin-left: 0px;
+}
+.social a:hover{
+    background:#c7ae05;
+    transition-duration: 0.2s;
+}
+.footerColumn{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-top: 135px;
+}
+.footerColumn p,
+.footerColumn span{
+ color: #ffffff;
+}
+.footerColumn span{
+    display: inline-block;
+    width: 100%;
+}
+.footerColumn p,.footerColumn ul{
+    margin: 0px;
+}
+.footerColumn ul li a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.footerColumn ul li a:hover{
+    color: #fcdb00;
+    transition-duration: 0.2s;
+}
+.footerColumn ul{
+    box-sizing: border-box;
+    padding-left: 80px;
+}
